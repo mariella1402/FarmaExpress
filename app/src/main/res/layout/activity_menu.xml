@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="true"
     tools:context=".menu">
 
     <TextView
@@ -32,19 +33,34 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Realizar Compra"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="294dp" />
+        android:layout_width="57dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="320dp"
+        android:text="Realizar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="61dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="336dp"
+        android:text="Compra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
         android:text="Historial de compras"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="294dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -55,16 +71,18 @@
         app:layout_constraintHorizontal_bias="0.738"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher" />
+        app:srcCompat="@drawable/ic_launcher3" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/cerrarsesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#BCBABA"
+        android:layout_marginTop="392dp"
+        android:backgroundTint="#CA7F7F"
         android:text="Cerrar Sesion"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="381dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
