@@ -17,11 +17,13 @@
         app:srcCompat="@drawable/icono" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/iniciar"
         android:layout_width="231dp"
         android:layout_height="71dp"
         android:layout_marginTop="576dp"
         android:backgroundTint="#125570"
+        android:clickable="true"
+        android:onClick="irLogin"
         android:text="Iniciar"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
