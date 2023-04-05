@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FarmaExpress</string>
+    <string name="fa_shopping_cart">&#xf07a;</string>
+    <string name="fa_shopping_cart_solid">\uf217</string>
+    <string name="fa_icon_areachart">&#xf1fe;</string>
+    <string name="fa_icon_piechart">&#xf200;</string>
+    <string name="fa_icon_linechart">&#xf201;</string>
 </resources>

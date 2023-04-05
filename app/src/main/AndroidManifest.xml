@@ -12,6 +12,19 @@
         android:theme="@style/Theme.FarmaExpress"
         tools:targetApi="31">
         <activity
+            android:name=".HistorialComprasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tienda"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
             android:name=".menu"
             android:exported="false" />
         <activity
@@ -19,6 +32,9 @@
             android:exported="false" />
         <activity
             android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".CarritoDeCompras"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
